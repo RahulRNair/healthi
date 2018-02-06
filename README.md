@@ -1,4 +1,7 @@
+```
+
 ####### How to Run  ###########
+
 sudo git clone https://github.com/RahulRNair/healthi.git
 1. To Start UI Run Below Commands
 cd healthi
@@ -12,7 +15,7 @@ UI url : http://localhost:8081/
 Backend url : http://localhost:3000/api/*
 Socket Url : http://localhost:3001/
 
-sql queries 
+###### Mysql Query ##############
 
 CREATE TABLE `users` (`uid` int(11) AUTO_INCREMENT,`username` varchar(50),`password` varchar(200),`email` varchar(200),PRIMARY KEY (`uid`));
 INSERT INTO users(username,password,email) VALUES('user','test','test@gmail.com');
